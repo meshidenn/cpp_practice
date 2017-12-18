@@ -1,0 +1,16 @@
+#ifndef _COUNTER_H_
+#define _COUNTER_H_
+
+class Counter{
+private:
+  int m_count;
+  int m_totalCount;
+public:
+  Counter();
+  void reset();
+  void count();
+  int getCount();
+  int getTotalCount();
+};
+
+#endif

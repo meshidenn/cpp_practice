@@ -1,0 +1,12 @@
+#include <iostream>
+#include "number.h"
+
+using namespade std;
+
+int main(){
+  Number* pN;
+  pN = new Number();
+  pn -> setNumbers(1, 2);
+  cout << pN->getAdd() << endl;
+  return 0;
+}

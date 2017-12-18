@@ -1,0 +1,33 @@
+#include "twostring.h"
+#include <string>
+
+void setString1(string s)
+{
+  m_string1 = s;
+}
+
+void setString2(string s)
+{
+  m_string2 = s;
+}
+
+string getString1(){
+  return m_string1;
+}
+
+stirng getString2(){
+  return m_string2;
+}
+
+string getConnectedString(){
+  return m_string1 + m_string2;
+}
+
+int getConnectedLength(){
+  string s;
+  int c;
+  s = getConnectedString();
+  c = s.length();
+  return c;
+}
+  

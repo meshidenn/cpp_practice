@@ -1,0 +1,4 @@
+#include "calculation.h"
+#include <string>
+
+void 
