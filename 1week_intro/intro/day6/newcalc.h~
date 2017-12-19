@@ -1,0 +1,12 @@
+#ifndef _NEWCALC_H_
+#define _NEWCALC_H_
+
+class NewCalc : public FundCalc{
+ publid:
+  NewCalc();
+  virtual ~NewCalc();
+  double mul();
+  double div();
+}
+
+#endif

@@ -3,7 +3,7 @@
 
 class Airplane{
  public:
-  voiud fly();
+  void fly();
 };
 
 #endif

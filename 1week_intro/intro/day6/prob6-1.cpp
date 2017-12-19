@@ -1,4 +1,4 @@
-#include <iosteram>
+#include <iostream>
 #include "fighter.h"
 
 using namespace std;
